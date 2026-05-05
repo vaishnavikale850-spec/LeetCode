@@ -6,7 +6,7 @@ class Solution {
 		int arrivalTime = sc.nextInt();
 		System.out.print("Enter Delayed Time : ");
 		int delayedTime = sc.nextInt();
-		int op = findDelayedArrivalTime(arrivalTime, delayedTime);
+		sint op = findDelayedArrivalTime(arrivalTime, delayedTime);
 		System.out.print("Output : "+ op);
 	}
     public static int findDelayedArrivalTime(int arrivalTime, int delayedTime) {
